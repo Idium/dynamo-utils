@@ -1,0 +1,27 @@
+{
+  "name": "dynamo-utils",
+  "version": "1.0.0",
+  "description": "Utilities for communicating with dynamo db",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p --progress --colors --config=webpack.config.js",
+    "dev": "webpack -d --watch --progress --colors --config=webpack.config.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.idium.no:aleks/dynamo-utils.git"
+  },
+  "author": "nukeop",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.322.0"
+  }
+}
