@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git@gitlab.idium.no:aleks/dynamo-utils.git"
   },
-  "author": "nukeop",
+  "author": "Aleksander Swiatkowski <aleksander.swiatkowski@idium.no>",
   "license": "GPL-3.0",
   "devDependencies": {
     "@babel/core": "^7.1.0",
